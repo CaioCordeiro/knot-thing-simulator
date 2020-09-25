@@ -4,9 +4,9 @@ import modbus_tk
 import modbus_tk.defines as cst
 from modbus_tk import modbus_tcp
 
-import protocol_core
-from protocol_core.iserver_adapter import IServerAdapter
-import protocol_core.defines as defs
+import knot_sim.protocol_core
+from knot_sim.protocol_core.iserver_adapter import IServerAdapter
+import knot_sim.protocol_core.defines as defs
 
 
 class ModbusTkTcpServerAdapter(IServerAdapter):

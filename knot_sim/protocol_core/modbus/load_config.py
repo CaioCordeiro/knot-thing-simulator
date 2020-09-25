@@ -1,7 +1,7 @@
 import json
 import sys
 
-from protocol_core import defines as defs
+from knot_sim.protocol_core import defines as defs
 
 
 class ConfigLoader:

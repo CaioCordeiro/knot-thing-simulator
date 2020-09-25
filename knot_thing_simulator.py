@@ -3,11 +3,11 @@ import logging
 import json
 import signal
 
-from protocol_core.modbus.modbus_server_adapter import ModbusTkTcpServerAdapter
-from protocol_core.modbus.modbus_engine import ModbusEngine
-from protocol_core import defines as defs
+from knot_sim.protocol_core.modbus.modbus_server_adapter import ModbusTkTcpServerAdapter
+from knot_sim.protocol_core.modbus.modbus_engine import ModbusEngine
+from knot_sim.protocol_core import defines as defs
 
-from protocol_core.modbus.load_config import ConfigLoader
+from knot_sim.protocol_core.modbus.load_config import ConfigLoader
 
 engine = None
 

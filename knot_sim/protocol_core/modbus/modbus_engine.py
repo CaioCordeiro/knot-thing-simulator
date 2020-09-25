@@ -4,8 +4,8 @@
 # Vai guardar os registers criados
 # Vai setar os regs
 from .modbus_server_adapter import ModbusTkTcpServerAdapter
-from protocol_core.iprotocol_engine import IProtocolEngine
-import protocol_core.defines as defs
+from knot_sim.protocol_core.iprotocol_engine import IProtocolEngine
+import knot_sim.protocol_core.defines as defs
 
 
 class ModbusEngine(IProtocolEngine):
